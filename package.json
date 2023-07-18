@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "lerna run start",
+    "build": "lerna run build",
+    "bootstrap": "lerna bootstrap --force-local",
+    "serve": "lerna run serve",
+    "clean": "lerna run clean",
+    "prepare": "lerna run yarn"
+  },
+  "devDependencies": {
+    "lerna": "7.1.4"
+  }
+}
